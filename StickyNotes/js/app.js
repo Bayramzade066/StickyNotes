@@ -52,9 +52,6 @@ input.addEventListener("keyup", function(event) {
           text.style.zIndex= -1;
           main.appendChild(div);
           div.appendChild(text);
-  
-          
-     
     }
   
   });
