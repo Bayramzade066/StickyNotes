@@ -6,19 +6,11 @@ button.addEventListener("click",()=>{
     note.style.display = "flex";
 })
 
-
 hide.addEventListener("click", ()=>{
     note.style.display = "none";
 })
 
-
 let main = document.querySelector(".main");
-
-
-
-
-
-
 var input = document.querySelector("textarea");
 // color
 var i= 0
