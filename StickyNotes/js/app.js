@@ -15,10 +15,7 @@ var input = document.querySelector("textarea");
 // color
 var i= 0
 var color = ["#323232","#0fdb7c","#11beee","#9d11ee","#e01010","#3ff024","#f8ed72"];
-
 var x = 1
-
-
 
 input.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
