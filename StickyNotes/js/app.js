@@ -53,13 +53,10 @@ input.addEventListener("keyup", function(event) {
           main.appendChild(div);
           div.appendChild(text);
     }
-  
   });
 
 var y = document.querySelector(".item")
-function hiden(event){
-
-        
+function hiden(event){ 
     if(event.target.tagName == "H1" ){
      event.target.parentElement.style.display="none";
            
