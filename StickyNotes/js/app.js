@@ -58,15 +58,11 @@ input.addEventListener("keyup", function(event) {
 var y = document.querySelector(".item")
 function hiden(event){ 
     if(event.target.tagName == "H1" ){
-     event.target.parentElement.style.display="none";
-           
+     event.target.parentElement.style.display="none";   
     }
     else if(event.target.className == "item" ){
-        
-        event.target.style.display="none";
-              
+        event.target.style.display="none";     
        };
-    
 }
         
 
