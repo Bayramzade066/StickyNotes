@@ -29,8 +29,6 @@ input.addEventListener("keyup", function(event) {
           if (i===7){
               i=0;
           }
-          
-          
           x++
      
       
