@@ -23,17 +23,15 @@ input.addEventListener("keyup", function(event) {
       //    ------------------
           var a = ["-2deg", "-1deg","-8deg","-5deg","-6deg","2deg"];
           var randomValue = a[Math.floor(a.length * Math.random())];
-      // +++++++++++++++++++++++++++++++++++
-      // ///////////////////////
+      // ++++++++
+      // /////////
           i++
           if (i===7){
               i=0;
           }
           x++
-     
-      
   
-      // ++++++++++++++++++++++
+      // +++++++++
           var div = document.createElement('div');
           div.classList.add("item");
           var text = document.createElement("h1");
